@@ -4,15 +4,15 @@
     margin-top: 1rem;
 }
 
-.o-form-usuario{
+.o-form-colaborador{
     margin-top: 2.5rem;
 }
 
-.o-label-usuario{
+.o-label-colaborador{
     color: #001E1D;
 }
 
-.o-input-usuario{
+.o-input-colaborador{
     background-color: #004643;
     color: #FFFFFE;
     border-style: none;
@@ -25,7 +25,7 @@
     margin-top: 2.5rem;
 }
 
-.o-summit-user{
+.o-summit-colaborador{
     background: #F9BC60;
     border-radius: 20px;
     border-style: none;
@@ -33,6 +33,6 @@
     height: 1.5rem;
 }
 
-.o-summit-user:hover{
+.o-summit-colaborador:hover{
     background-color: #CFA15C;
 }

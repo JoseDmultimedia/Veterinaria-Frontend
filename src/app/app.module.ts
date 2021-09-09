@@ -7,6 +7,8 @@ import { NavbarComponent } from './Components/navbar/navbar.component';
 import { FooterComponent } from './Components/footer/footer.component';
 import { InterfazInicioComponent } from './Components/interfaz-inicio/interfaz-inicio.component';
 import { UsuarioDataComponent } from './Components/interfaz-inicio/usuario-data/usuario-data.component';
+import { MascotaDataComponent } from './Components/interfaz-inicio/mascota-data/mascota-data.component';
+import { ColaboradorDataComponent } from './Components/interfaz-inicio/colaborador-data/colaborador-data.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +16,9 @@ import { UsuarioDataComponent } from './Components/interfaz-inicio/usuario-data/
     NavbarComponent,
     FooterComponent,
     InterfazInicioComponent,
-    UsuarioDataComponent
+    UsuarioDataComponent,
+    MascotaDataComponent,
+    ColaboradorDataComponent
   ],
   imports: [
     BrowserModule,
