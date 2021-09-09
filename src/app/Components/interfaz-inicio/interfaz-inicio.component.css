@@ -1,0 +1,37 @@
+.o-inicio-container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 90vw;
+    justify-content: space-between;
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+
+.o-tittle-inicio{
+    color: #001E1D;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px
+}
+
+.o-buttons-btns{
+    display: flex;
+    gap: 1rem;
+}
+
+.o-btns-inicio{
+    background: #F9BC60;
+    border-radius: 20px;
+    border-style: none;
+    width: 7rem;
+    height: 1.5rem;
+}
+
+.o-btns-inicio:hover{
+    background-color: #CFA15C;
+}
+
+.o-img-inicio{
+    margin-top: 5rem;
+    width: 600px;
+}
