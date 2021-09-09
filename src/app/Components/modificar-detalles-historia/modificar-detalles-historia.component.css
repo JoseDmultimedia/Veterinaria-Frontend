@@ -1,0 +1,80 @@
+.o-container-modificar-detalles{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 90vw;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.o-header-modificar-detalles{
+    display: flex;
+    width: 90vw;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0rem;
+}
+
+.o-text-modificar-detalles-titles{
+    margin: 0rem;
+    color: #001E1D;
+}
+
+.o-titles-modificar-detalles{
+    display: flex;
+    flex-direction: column;
+    margin-left: 5rem;
+}
+
+.o-titles-modificar-detalles-first{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    margin: 0rem;
+}
+
+.o-titles-modificar-detalles-second{
+    margin-top: 1rem;
+}
+
+.o-container-button-modificar-detalles{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 5rem;
+    gap: 1rem;
+}
+
+.o-btn-modificar-detalles-new{
+    background: #F9BC60;
+    border-radius: 20px;
+    border-style: none;
+    width: 10rem;
+    height: 2rem;
+}
+
+.o-btn-modificar-detalles-new:hover{
+    background-color: #CFA15C;
+}
+
+.o-form-group{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+}
+
+.o-form-modificar-detalles{
+    margin-top: 2.5rem;
+}
+
+.o-label-modificar-detalles{
+    color: #001E1D;
+}
+
+.o-input-modificar-detalles{
+    background-color: #004643;
+    color: #FFFFFE;
+    border-style: none;
+}

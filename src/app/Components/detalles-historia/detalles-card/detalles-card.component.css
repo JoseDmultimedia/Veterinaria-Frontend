@@ -1,0 +1,55 @@
+.o-card-details{
+    display: flex;
+    width: 70vw;
+    background-color: #00464381;
+    padding-left: 1.5rem;
+    border: solid 2px white;
+}
+
+.o-header-card-detalles{
+    display: flex;
+    justify-content: space-between;
+}
+
+.o-descripcion-card{
+    margin: 0rem;
+}
+
+.o-buttons-card{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    margin-right: 2.5rem;
+}
+
+.o-moda-card{
+    width: 25px;
+}
+
+.o-moda-card:hover{
+    background-color:#CFA15C;
+}
+
+.o-modb-card{
+    width: 30px;
+}
+
+.o-modb-card:hover{
+    background-color:#CFA15C;
+}
+
+.o-button-ver-card{
+    background: #F9BC60;
+    border-radius: 20px;
+    border-style: none;
+    width: 3rem;
+    height: 1.5rem;
+}
+
+.o-button-ver-card:hover{
+    background-color: #CFA15C;
+}
+
+.o-container-footer-card-details{
+    margin-right: 1rem;
+}

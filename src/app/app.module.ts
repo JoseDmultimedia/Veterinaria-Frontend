@@ -9,6 +9,12 @@ import { InterfazInicioComponent } from './Components/interfaz-inicio/interfaz-i
 import { UsuarioDataComponent } from './Components/interfaz-inicio/usuario-data/usuario-data.component';
 import { MascotaDataComponent } from './Components/interfaz-inicio/mascota-data/mascota-data.component';
 import { ColaboradorDataComponent } from './Components/interfaz-inicio/colaborador-data/colaborador-data.component';
+import { RevisarHistorialesComponent } from './Components/revisar-historiales/revisar-historiales.component';
+import { DetallesHistoriaComponent } from './Components/detalles-historia/detalles-historia.component';
+import { VisualizarDetallesHistoriaComponent } from './Components/visualizar-detalles-historia/visualizar-detalles-historia.component';
+import { AgregarDetallesHistoriaComponent } from './Components/agregar-detalles-historia/agregar-detalles-historia.component';
+import { ModificarDetallesHistoriaComponent } from './Components/modificar-detalles-historia/modificar-detalles-historia.component';
+import { DetallesCardComponent } from './Components/detalles-historia/detalles-card/detalles-card.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +24,13 @@ import { ColaboradorDataComponent } from './Components/interfaz-inicio/colaborad
     InterfazInicioComponent,
     UsuarioDataComponent,
     MascotaDataComponent,
-    ColaboradorDataComponent
+    ColaboradorDataComponent,
+    RevisarHistorialesComponent,
+    DetallesHistoriaComponent,
+    VisualizarDetallesHistoriaComponent,
+    AgregarDetallesHistoriaComponent,
+    ModificarDetallesHistoriaComponent,
+    DetallesCardComponent
   ],
   imports: [
     BrowserModule,
