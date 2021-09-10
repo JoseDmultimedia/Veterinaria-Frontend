@@ -15,6 +15,7 @@ import { VisualizarDetallesHistoriaComponent } from './Components/visualizar-det
 import { AgregarDetallesHistoriaComponent } from './Components/agregar-detalles-historia/agregar-detalles-historia.component';
 import { ModificarDetallesHistoriaComponent } from './Components/modificar-detalles-historia/modificar-detalles-historia.component';
 import { DetallesCardComponent } from './Components/detalles-historia/detalles-card/detalles-card.component';
+import { RevisarDatosComponent } from './Components/revisar-datos/revisar-datos.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +31,8 @@ import { DetallesCardComponent } from './Components/detalles-historia/detalles-c
     VisualizarDetallesHistoriaComponent,
     AgregarDetallesHistoriaComponent,
     ModificarDetallesHistoriaComponent,
-    DetallesCardComponent
+    DetallesCardComponent,
+    RevisarDatosComponent
   ],
   imports: [
     BrowserModule,

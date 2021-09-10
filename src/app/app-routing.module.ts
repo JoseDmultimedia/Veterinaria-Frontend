@@ -7,6 +7,8 @@ import { InterfazInicioComponent } from './Components/interfaz-inicio/interfaz-i
 import { MascotaDataComponent } from './Components/interfaz-inicio/mascota-data/mascota-data.component';
 import { UsuarioDataComponent } from './Components/interfaz-inicio/usuario-data/usuario-data.component';
 import { ModificarDetallesHistoriaComponent } from './Components/modificar-detalles-historia/modificar-detalles-historia.component';
+import { RevisarDatosComponent } from './Components/revisar-datos/revisar-datos.component';
+import { RevisarHistorialesComponent } from './Components/revisar-historiales/revisar-historiales.component';
 import { VisualizarDetallesHistoriaComponent } from './Components/visualizar-detalles-historia/visualizar-detalles-historia.component';
 
 const routes: Routes = [
@@ -20,7 +22,9 @@ const routes: Routes = [
   {path: 'detalles-historia', component: DetallesHistoriaComponent},
   {path: 'agregar-detalles', component: AgregarDetallesHistoriaComponent},
   {path: 'modificar-detalles', component: ModificarDetallesHistoriaComponent},
-  {path: 'visualiza-detalles', component: VisualizarDetallesHistoriaComponent}
+  {path: 'visualiza-detalles', component: VisualizarDetallesHistoriaComponent},
+  {path: 'revisar-historiales', component: RevisarHistorialesComponent},
+  {path: 'revisar-datos', component: RevisarDatosComponent}
 ];
 
 @NgModule({
