@@ -1,0 +1,44 @@
+.o-div-navabar{
+  width: 100%;
+  height: 20vh;
+
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-image: url(../../../assets/wave-haikei.svg) ;
+}
+
+.o-titles{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: #FFFFFE;
+}
+
+.o-name-app{
+    font-style: normal;
+    font-weight: bold;
+    margin-left: 1.5rem;
+}
+
+.o-buttons{
+    display: flex;
+    flex-direction: row ;
+    gap: 2rem;
+    margin-right: 3.5rem;
+    margin-top: 1.5rem;
+}
+
+.o-button-navbar{
+    background: none;
+    color: #FFFFFE;
+    border:transparent;
+}
+
+.o-button-navbar:hover{
+    color: #F9BC60;
+}
+
+.o-button-navbar-selected{
+    color: #CFA15C;
+}

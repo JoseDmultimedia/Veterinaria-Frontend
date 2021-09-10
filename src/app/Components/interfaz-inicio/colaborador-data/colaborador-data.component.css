@@ -1,0 +1,38 @@
+.o-form-group{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+}
+
+.o-form-colaborador{
+    margin-top: 2.5rem;
+}
+
+.o-label-colaborador{
+    color: #001E1D;
+}
+
+.o-input-colaborador{
+    background-color: #004643;
+    color: #FFFFFE;
+    border-style: none;
+}
+
+.o-form-button-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2.5rem;
+}
+
+.o-summit-colaborador{
+    background: #F9BC60;
+    border-radius: 20px;
+    border-style: none;
+    width: 7rem;
+    height: 1.5rem;
+}
+
+.o-summit-colaborador:hover{
+    background-color: #CFA15C;
+}
